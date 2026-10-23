@@ -1,0 +1,62 @@
+PR #1622 - ACTUAL BROWSER EXECUTION LOG
+HEAD 8c8fe681677885431e5ed54429016045dbe40623
+2026-10-23 KST | real Next dev :4622 | 10 PASS
+
+Controlled /v3/users fixture + platform/bridge observation.
+Real dev API snapshot. Writes no-op; compare navigation aborted.
+Not native auth / compare-save E2E. No fabricated application UI.
+
+ios-late-form | PASS | shared_view=1
+  +312ms member-request
+  +702ms real-snapshot-response HTTP 200
+  +4958ms form-filled name=지연검증 date=1994-05-16
+  +5015ms member-response normal
+  +6320ms input-preserved-after-response name=지연검증 date=1994-05-16
+
+android-late-form | PASS | shared_view=1
+  +301ms member-request
+  +649ms real-snapshot-response HTTP 200
+  +4929ms form-filled name=지연검증 date=1994-05-16
+  +4972ms member-response normal
+  +6276ms input-preserved-after-response name=지연검증 date=1994-05-16
+
+ios-late-intro | PASS | shared_view=1
+  +294ms member-request
+  +645ms real-snapshot-response HTTP 200
+  +5007ms member-response normal
+
+ios-fast-snapshot-first | PASS | shared_view=0
+  +293ms member-request
+  +637ms real-snapshot-response HTTP 200
+  +739ms member-response normal
+  +745ms compare-navigation
+    /fortune-id/compare?counterpart=[redacted]&gsrc=link&nativebar=1
+
+android-fast-user-first | PASS | shared_view=0
+  +317ms member-request
+  +317ms member-response normal
+  +652ms compare-navigation
+    /fortune-id/compare?counterpart=[redacted]&gsrc=link&nativebar=1
+  +1367ms real-snapshot-response HTTP 200
+
+ios-anonymous | PASS | shared_view=1
+  +317ms member-request
+  +317ms member-response anonymous
+  +667ms real-snapshot-response HTTP 200
+
+ios-user-error | PASS | shared_view=1
+  +303ms member-request
+  +303ms member-response error
+  +652ms real-snapshot-response HTTP 200
+
+ios-no-token | PASS | shared_view=1
+  +646ms real-snapshot-response HTTP 200
+
+browser-with-token | PASS | shared_view=1
+  +303ms member-request
+  +303ms member-response normal
+  +327ms real-snapshot-response HTTP 200
+
+browser-no-token | PASS | shared_view=1
+  +328ms real-snapshot-response HTTP 200
+
