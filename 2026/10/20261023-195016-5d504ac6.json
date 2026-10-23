@@ -1,0 +1,405 @@
+[
+  {
+    "seq": 1,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 2,
+    "path": "/api/profile/id-card",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 3,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 4,
+    "path": "/api/birthday/relation",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 5,
+    "path": "/api/fortune-id/compat",
+    "method": "POST",
+    "body": {
+      "counterpartToken": "[fixture-token-redacted]"
+    },
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 6,
+    "path": "/api/fortune-id/compat",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 7,
+    "path": "/api/profile/id-card",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 8,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 9,
+    "path": "/api/birthday/relation",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 10,
+    "path": "/api/fortune-id/compat",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 11,
+    "path": "/api/profile/id-card",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 12,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 13,
+    "path": "/api/birthday/relation",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 14,
+    "path": "/api/fortune-id/compat",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 15,
+    "path": "/api/birthday",
+    "method": "POST",
+    "body": {
+      "name": "QR상대",
+      "year": 1990,
+      "month": 1,
+      "day": 2,
+      "inheritBirthTime": true,
+      "basedOnToken": "[fixture-token-redacted]",
+      "isMale": false,
+      "relation": "FRIEND",
+      "mbti": "INTJ"
+    },
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 16,
+    "path": "/api/fortune-id/snapshots/adhoc",
+    "method": "POST",
+    "body": {
+      "birthdaySeq": 4201620,
+      "inheritBirthTime": true,
+      "mbti": "INTJ"
+    },
+    "fixture": true,
+    "responseStatus": 503,
+    "responseKind": "controlled-error"
+  },
+  {
+    "seq": 17,
+    "path": "/api/birthday/4201620",
+    "method": "PATCH",
+    "body": {
+      "isMale": false
+    },
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 18,
+    "path": "/api/fortune-id/snapshots/adhoc",
+    "method": "POST",
+    "body": {
+      "birthdaySeq": 4201620,
+      "inheritBirthTime": true,
+      "mbti": "INTJ"
+    },
+    "fixture": true,
+    "responseStatus": 503,
+    "responseKind": "controlled-error"
+  },
+  {
+    "seq": 19,
+    "path": "/api/birthday/4201620",
+    "method": "PATCH",
+    "body": {
+      "hour": 8,
+      "minute": 15,
+      "isMale": false
+    },
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 20,
+    "path": "/api/fortune-id/snapshots/adhoc",
+    "method": "POST",
+    "body": {
+      "birthdaySeq": 4201620,
+      "inheritBirthTime": true,
+      "mbti": "INTJ"
+    },
+    "fixture": true,
+    "responseStatus": 503,
+    "responseKind": "controlled-error"
+  },
+  {
+    "seq": 21,
+    "path": "/api/profile/id-card",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 22,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 23,
+    "path": "/api/birthday/relation",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 24,
+    "path": "/api/fortune-id/compat",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 25,
+    "path": "/api/birthday/4201620",
+    "method": "PATCH",
+    "body": {
+      "hour": 0,
+      "minute": 0,
+      "isMale": false
+    },
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 26,
+    "path": "/api/fortune-id/snapshots/adhoc",
+    "method": "POST",
+    "body": {
+      "birthdaySeq": 4201620,
+      "inheritBirthTime": true,
+      "mbti": "INTJ"
+    },
+    "fixture": true,
+    "responseStatus": 503,
+    "responseKind": "controlled-error"
+  },
+  {
+    "seq": 27,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 28,
+    "path": "/api/fortune-id/compat",
+    "method": "POST",
+    "body": {
+      "counterpartToken": "[fixture-token-redacted]"
+    },
+    "fixture": true,
+    "responseStatus": 400,
+    "responseKind": "controlled-error"
+  },
+  {
+    "seq": 29,
+    "path": "/api/profile/id-card",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 30,
+    "path": "/api/birthday/relation",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 31,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 32,
+    "path": "/api/profile/id-card",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 33,
+    "path": "/api/birthday/relation",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 34,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 35,
+    "path": "/api/birthday",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 36,
+    "path": "/api/profile/id-card",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 37,
+    "path": "/api/birthday/relation",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 38,
+    "path": "/api/fortune-id/snapshots/[fixture-token-redacted]",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 39,
+    "path": "/api/birthday",
+    "method": "GET",
+    "body": null,
+    "fixture": true,
+    "responseStatus": 200,
+    "responseKind": "fixture-data"
+  },
+  {
+    "seq": 40,
+    "path": "/api/fortune-id/snapshots/adhoc",
+    "method": "POST",
+    "body": {
+      "birthdaySeq": 4201620,
+      "inheritBirthTime": true
+    },
+    "fixture": true,
+    "responseStatus": 503,
+    "responseKind": "controlled-error"
+  }
+]
